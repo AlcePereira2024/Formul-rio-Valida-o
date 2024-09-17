@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    text-align: center;
+    margin-top: 80px;
+    justify-content: space-between;
+}
+
+#form-exercicio {
+    display: block;
+    width: 100%;
+    resize: none;
+}
+
+.message {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.success {
+    color: green;
+    text-align: center;
+}
+.error {
+    color: red;
+    text-align: center;
+}
